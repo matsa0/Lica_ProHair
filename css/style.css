@@ -1,0 +1,550 @@
+/*Geral*/
+* {
+    font-family: 'Roboto', 'sans-serif', 'arial';
+}
+
+/*Geral do projeto */
+.row {
+    margin: 0; /*Tirando as margens do row */
+}
+
+.container {
+    padding: 70px 0px; /*Superior e inferior = 70px e Esquerda e Direita = 0px */
+}
+
+p, li {
+    color: #444;
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+
+
+
+
+/*Barra de navegação*/
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo {
+    width: 75px;
+    margin-left: 10px;
+}
+
+#texto_logo {
+    color:#FFF;
+    padding: 0;
+    font-weight: 600;
+}
+
+#texto_logo:hover {
+    color: #FFF	;
+}
+
+#navbar-links a{
+    color: #FFF;
+    text-decoration: none;
+    padding: 1rem .8rem;
+}
+
+#navbar-links a:hover {
+    color: rgba(238,130,238);
+    transition: .5s;
+}
+
+header, .navbar {
+    background-color: #4B0082/*#353D41*/; 	
+}
+
+.navbar-brand {
+    padding: 0px;
+}
+
+
+
+
+
+/*Slideshow*/
+.container-fluid {
+    padding: 0;
+
+}
+
+.carousel-inner, .carousel-item {
+    height: 90vh;
+} /* vh = viewheight, nesse caso, simula 90% da tela */
+
+.carousel-caption {
+    top: 20%;
+    background-color: rgba(76, 0, 130, 0.45);
+    position: absolute;
+}
+
+.carousel-caption h2 {
+    padding-top: 70px;
+    font-size: 55px;
+}
+
+.carousel-caption p {
+    color: #FFF;
+    font-size: 22px;
+    font-weight:100;
+    padding-top: 30px;
+    margin-bottom: 90px;
+}
+
+.main-btn {
+    background-color: #EE82EE;
+    color: #FFF;
+    text-transform: uppercase;
+    text-decoration: none;
+    width: 200px;
+    height: 60px;
+    padding: 15px 25px;
+    border-radius: 30px;
+    border: 3px solid transparent;
+    transition: .5s;
+}
+
+.main-btn:hover {
+    text-decoration: none;
+    color: #FFF;
+    background-color: transparent;
+    border-color: #EE82EE;
+}
+
+
+
+
+
+/*Sobre*/
+#sobre {
+    background-color: #f7f7f7;
+}
+
+.img-fluid {
+width: 400px;
+}
+
+.main-title {
+padding-top: 0px;
+font-size: 40px;
+color: #444;
+margin: 0 0 60px 0;    
+text-align: center;
+}
+
+.main-title {
+font-weight:bold;
+}
+
+.main-title::after {
+content: "";
+border-bottom: 3px solid #4B0082 ;
+position: absolute;
+width: 15%;
+padding: 60px 0px 0px 0px;
+left: 42.5%;
+}
+
+.about-title {
+padding-top: 25px;
+color:#333;
+text-transform: uppercase;
+font-weight: bold;
+}
+
+.col-md-6 {
+text-align: justify;
+}
+
+.col-md-6 img{
+border: solid 3px rgba(238,130,238, 0.5);
+}
+
+.col-md-6 img:hover {
+border-color: #4B0082;
+}
+
+.col-md-6 img {
+transition: .5s;
+}
+
+
+
+
+
+/*Serviços*/
+.service-box {
+text-align: center;
+margin-bottom: 50px;
+}
+
+
+.service-box i {
+font-size: 35px;
+margin-bottom: 20px;
+color:#EE82EE;
+}
+
+.service-box h4 {
+color:#333;
+margin-bottom: 15px;
+font-weight: 500;
+}
+
+.service-box:hover > i, .service-box:hover > h4 {  /*Ele coloca a service-box toda, porém, especifica o i e o h4 */
+color: #4B0082;
+}
+
+.service-box i, .service-box h4 {
+transition: .5s;
+}
+
+
+
+
+
+/*Parallax_Dados*/
+.circle-box div {
+    padding: 0 40px;
+}
+
+.progressbar-text {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.parallaxId {
+    background-image: url(../img/cuidados-com-o-cabelo-liso-e-fino_4607_l.jpg);
+    height: 500px;
+    margin-bottom: 50px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#parallax_dados p {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 26px;
+}
+
+
+
+
+
+/*Produtos Utilizados*/
+.project-box {
+    margin-bottom: 30px;
+}
+
+#filter-btn-box {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#produtos-area .filter-btn {
+    color: #EE82EE;
+    border: 2px solid #EE82EE;
+    background-color: transparent;
+    text-transform: none;
+    margin: 0 15px;
+    min-width: 100px;
+    width: auto;
+    height: 40px;
+    line-height: 30px;
+    padding: 0 25px;
+}
+
+#produtos-area .filter-btn.active, #produtos-area .filter-btn:hover {
+    color: white;
+    background-color: #EE82EE;
+}
+
+.project-box img {
+    width: 500px;
+    height: auto;
+}
+
+.project-box #caut2 {
+    width: 350px;
+
+}
+
+.project-box p {
+    text-align: center;
+    color:#333;
+}
+
+
+
+    /*Galllery*/
+    #gallery {
+        background-image: linear-gradient(to bottom, white, #eee8e8, #f7aaf7, #EE82EE, #6802b1);
+    }
+
+    .formato-cabelo {
+        height: 356.5px;
+    }
+
+    .formato-cabelo2 {
+        height: 356.5px;
+    }
+
+
+
+
+
+/*Contato*/
+.contact-box {
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #EE82EE;
+}
+
+.contact-box i {
+    color: #444;
+    border: solid 1px #EE82EE;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 24px;
+}
+
+.contact-box i:hover {
+    color: #EE82EE;
+   
+}
+
+.contact-box i {
+    transition: .5s;
+}
+
+.contact-box p {
+    font-size: 20.5px;
+}
+
+.contact-title {
+    font-weight: bold;
+    color: #EE82EE;
+}
+
+#contact-area {
+    text-align: center;
+}
+
+
+
+
+
+/*Envie uma mensagem*/
+#msg-box p {
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 70px ;
+    text-align: center;
+}
+
+#contact-form input[type="text"], #contact-form input[type="email"], #contact-form textarea {
+    margin-bottom: 15px;
+    border-radius: 0;
+}
+
+#contact-form .main-btn {
+    width: 120px;
+    height: 50px;
+    line-height: 10px;
+}
+
+#contact-form .main-btn:hover {
+    color: #EE82EE;
+}
+
+
+
+
+
+/*Social Area*/
+#social-area  {
+    background-image: linear-gradient(to bottom, white, #f3f0f0, #eceaea, #f7aaf7);
+}
+.social-icons i {
+    border: solid 2px #EE82EE;
+    border-radius: 50%;
+    color: #444;
+    width: 80px;
+    height: 80px;
+    line-height: 75px;
+    font-size: 50px;
+    margin: 0 15px;
+}
+
+.social-icons i:hover {
+    background: #EE82EE;
+    color: #FFF;
+}
+
+.social-icons i {
+    transition: .5s;
+}
+
+
+
+
+
+/*Copy Area*/
+#copy-area {
+    background-color: #4B0082;
+}
+
+#copy-area .container {
+    padding: 10px 0;
+    text-align: center;
+}
+
+#copy-area p {
+    color: white;
+    text-decoration: none;
+}
+
+#copy-area a {
+    text-decoration: none;
+    color: #EE82EE;
+}
+
+#copy-area p, a {
+    text-align: center;
+}
+
+
+
+
+
+/*RESPONSIVE*/
+
+/*Tablet*/ 
+@media(max-width: 768px) {
+
+    /*geral*/
+    .container {
+        padding: 25px 0;
+    }
+
+    .navbar-dark {
+        padding-right: 15px ;
+        font-size: 20px;
+    }
+
+    /*slider*/
+
+    .carousel-caption h2 {
+        font-size: 32px;
+    }
+
+    .carousel-caption p {
+        font-size: 18px;
+        margin-bottom: 35px;
+    }
+
+    .carousel-caption {
+        top: 20%;
+    }
+
+
+    /*Sobre*/
+    #sobre img {
+        margin-top: 100px;
+    }
+
+    /*Parallax Dados*/
+    .circle-box div {
+        padding: 0 5px;
+    }
+
+    #parallax_dados p {
+        font-size: 20px;
+    }
+
+    /*Produtos*/
+    #filter-btn-box .filter-btn {
+        padding: 0 10px;
+    }
+
+    /*Galeria*/
+    #gallery img {
+        width: auto;
+
+    }
+
+    .formato-cabelo {
+        height: 216.5px;
+    }
+
+    .formato-cabelo2 {
+        height: 216.5px;
+    }
+
+    /*Contato*/
+    #contact-area .contact-box p, span {
+        font-size: 17px;
+    }
+
+}
+
+/*Cell*/
+@media(max-width: 425px) {
+
+    .container {
+        padding: 25px 0;
+    }
+    /*Slider*/
+    #mainSlider {
+        margin-top: 90px;
+    }
+
+    #mainSlider .carousel-caption {
+        top: 5%
+    }
+
+    #mainSlider .carousel-caption h2 {
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+
+    #mainSlider .carousel-caption p {
+        display: none;
+    }
+
+    .carousel-caption .main-btn {
+        font-size: 12px; 
+    }
+
+    .carousel-caption {
+        height: 210px;
+    }
+
+    /*Sobre*/
+    .main-title {
+        font-size: 30px;
+    }
+
+    #sobre img {
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+
+    /*Parallax*/
+    .circle-box {
+        width: 45%;
+
+    }
+}
